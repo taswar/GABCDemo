@@ -13,5 +13,5 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build ./GABCDemo --configuration $(buildConfiguration)
+- script: dotnet build ./GABDemo --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
